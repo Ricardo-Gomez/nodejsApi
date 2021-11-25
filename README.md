@@ -1,7 +1,7 @@
 ## NodeJsApi
-This repo is mainly used for training and will countinually grow with features that comes in mind or to try new design patterns and refactors.
+This repo is mainly used for training and will continually grow with random features or to try new design patterns and refactors.
 
-the project currently exposes an endpoint to perform CRUD operations for a user resource.
+The project currently exposes an endpoint to perform CRUD operations for a user resource.
 
 ------------
 **GET /api/users/:ids**
