@@ -1,0 +1,28 @@
+{
+  "name": "skydropx",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "start:dev": "pm2-runtime start ecosystem.config.js --env development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cookie-parser": "~1.4.4",
+    "express": "~4.16.1",
+    "mongoose": "^6.0.13",
+    "morgan": "~1.9.1",
+    "pm2": "^5.1.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "rootDir": "src"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "mockingoose": "^2.15.2",
+    "supertest": "^6.1.6"
+  }
+}
